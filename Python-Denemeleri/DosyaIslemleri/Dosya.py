@@ -7,4 +7,3 @@ icerik = dosya.readlines()
 for satir in icerik:
     print(satir)
 
-#Bu değişikliği öylesinde yaptım.
