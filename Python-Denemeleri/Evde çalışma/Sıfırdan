@@ -1,0 +1,41 @@
+# isim = "Ahmet"
+# mesaj = "Merhaba"
+#  print("{} {} dedi..".format(isim,mesaj))
+
+# print(f"{isim} {mesaj} dedi..")
+
+# sayı1= 5 ** 100
+# sayı2 = 22 / 7
+
+# print (sayı2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Matematiksel işlemler 
+#Toplama           " + "
+#Çıkarma           " - "
+#Çarpma            "  * "
+#Bölme             " / "
+#Tamsayı bölmesi   " // "
+#Kuvvet Alma       " ** "
+#Mutlak Değer      " abs "
+#Yuvarlama         "round"
+#İşlem önceliği     
+
+
+print((3 + 2) * 4 + 3)
