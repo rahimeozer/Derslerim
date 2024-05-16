@@ -40,7 +40,7 @@ dk = ".\\DosyaIslemleri\\mtin.txt"
 # for satir in satirlar:
 #     print(satirlar)
 
-dosya = open(dosyaKonumu , "r+" , encoding="utf-8")
+# dosya = open(dosyaKonumu , "r+" , encoding="utf-8")
 
 # print("Dosya açıldıktan sonra konum :",dosya.tell())
 
@@ -52,13 +52,29 @@ dosya = open(dosyaKonumu , "r+" , encoding="utf-8")
 
 
 
-icerik = dosya.readlines()
-icerik.insert(1, "Benim adım Batman"+"\n")
-print(icerik)
-dosya.writelines(icerik)
+# icerik = dosya.readlines()
+# icerik.insert(1, "Benim adım Batman"+"\n")
+# print(icerik)
+# dosya.writelines(icerik)
 # dosya.seek(0)
 
 # print("Dosya okunabilir mi :",dosya.readable())
+
+
+import os
+if os.path.exists(dosyaKonumu):
+    print("Dosyayi buldum, İslem yapiyorum")
+    with open (dosyaKonumu,"r+") as dosya :
+         icerik = dosya.read()
+         print(icerik)
+else:
+    print("Dosya bulunamadı...")
+
+
+
+
+
+
 
 
 
