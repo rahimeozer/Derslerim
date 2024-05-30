@@ -1,3 +1,4 @@
+# set en büyük özelliği : ne kadar eleman eklersen ekle sonuçta bir tane veriyor ..
 set0 = {"Begonya", "Sümbül"}
 set1 = {"Begonya","Kardelen","Lavanta","Sümbül","Begonya","Kardelen","Lavanta", "Sümbül",1,4}
 set2 = {1,4,7,6,3,4,3,2,1,3,4,"Lavanta", False, "Adıyaman","Üzüm"}
@@ -66,6 +67,10 @@ tuple1 = ("İzmit", "Mersin","Adıyaman","Diyarbakır")
 # print(set0.issubset(set1)) 
 
 # print(set1.issuperset(set0))
+
+# dictionary: sözlük, bir kelime anlamını içeren,aynı kelimeden bir defa olur...
+
+
 
 
 
