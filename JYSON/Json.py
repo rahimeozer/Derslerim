@@ -38,6 +38,13 @@ with open(path)as jFile:
     print(data)
 
 jString = json.dumps(data,indent=4) 
-print(jString) 
+# print(jString) 
 
-print(data["cars"][1]["hacim"])
+# print(data["cars"][1]["hacim"])
+
+for keys,vals in data ["cars"][1].items():
+    print(keys,vals)
+
+    # Json web sayfasında herhangi bir bilgiyi göndermek istediğimize anahtar ve değer haline getirip Backend e gönderir 
+    # config dosyası için 
+    # multiprosesif 
