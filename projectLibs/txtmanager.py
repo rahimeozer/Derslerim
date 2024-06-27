@@ -1,4 +1,4 @@
-from filemanager import FileManager
+from projectLibs.filemanagers import FileManager
 import datetime as dt
 
 class TextManager(FileManager):

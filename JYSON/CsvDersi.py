@@ -49,3 +49,4 @@ for i in range(len(lines)):
     # lines [1][3]=
     # ödev:csv dosyasında kendi telefon numaranı düzelt 
     # liste içindeki elemanlara eriş ve tek tek gezin üzerinde 
+    #csv.reader 
